@@ -33,6 +33,16 @@ body {
 .changeColor:hover {
   filter: saturate(100%);
 }
+
+.grad {
+  background: rgb(7, 28, 249);
+  background: radial-gradient(
+    circle,
+    rgba(7, 28, 249, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
 /* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

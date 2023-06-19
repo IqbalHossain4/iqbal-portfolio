@@ -26,9 +26,9 @@ const NavBer = () => {
   );
 
   return (
-    <nav>
+    <nav className="sticky top-0 z-50">
       <div
-        className={`flex items-cente justify-between bg-black text-white px-8`}
+        className={` flex items-cente justify-between grad text-white px-8 `}
       >
         <div className="navbar-start">
           <div className="dropdown">
@@ -56,8 +56,23 @@ const NavBer = () => {
             </ul>
           </div>
           <a href="/" className="btn btn-ghost normal-case  text-4xl">
-            <span className="text-blue-500">&lt;</span>Iqbal
-            <span className="text-blue-500">/&gt;</span>
+            <span
+              className="text-blue-500"
+              style={{
+                textShadow: "3px 3px 3px blue, 0 0 25px blue, 0 0 5px blue",
+              }}
+            >
+              &lt;
+            </span>
+            Iqbal
+            <span
+              className="text-blue-500 "
+              style={{
+                textShadow: "3px 3px 3px blue, 0 0 25px blue, 0 0 5px blue",
+              }}
+            >
+              /&gt;
+            </span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

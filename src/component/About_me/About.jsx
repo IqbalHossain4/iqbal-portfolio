@@ -7,12 +7,12 @@ const About = () => {
   };
 
   return (
-    <div className="text-white bg-blue-600 py-4">
+    <div className="text-white grad py-4 ">
       <div className="container">
         <p className="text-zinc-400">about/&gt;</p>
         <div className="md:flex   items-center justify-evenly w-full">
           <div className="w-3/4 mx-auto">
-            <h1 className="text-black font-bold">Iqbal Hossain</h1>
+            <h1 className="text-[#071cf9] font-bold">Iqbal Hossain</h1>
             <p>Web Developer...</p>
             <div className="text-md">
               <p>

@@ -2,21 +2,27 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
   return (
-    <div className="my-40 ">
-      <div className=" container">
+    <div className="my-40">
+      <div className=" container ">
         <div className="text-white ">
           <p className="text-zinc-400 my-8">start/&gt;</p>
           <h1 className="text-4xl">
             <span className="font-bold"> Hi, my name is</span>{" "}
-            <span className="text-blue-500">Iqbal Hossain</span>
+            <span
+              className="text-blue-500"
+              style={{
+                textShadow: "3px 3px 3px blue, 0 0 25px blue, 0 0 5px blue",
+              }}
+            >
+              Iqbal Hossain
+            </span>
           </h1>
           <h2 className="text-4xl mt-4">
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "i design and develop Web Application",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "i design and develop Manage Web Application",
+                "i will do design Web Application",
+                1000,
+                "i will do develop web Application",
                 1000,
               ]}
               wrapper="span"
@@ -25,6 +31,11 @@ const Banner = () => {
               repeat={Infinity}
             />
           </h2>
+        </div>
+        <div className="mt-8 rounded-md">
+          <button className="border border-blue-600 hover:bg-[#071cf9]  w-[150px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+            Hire me
+          </button>
         </div>
       </div>
     </div>
