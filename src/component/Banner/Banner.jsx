@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="my-40 ">
       <div className=" container">
         <div className="text-white ">
-          <p className="text-zinc-400">start/&gt;</p>
+          <p className="text-zinc-400 my-8">start/&gt;</p>
           <h1 className="text-4xl">
             <span className="font-bold"> Hi, my name is</span>{" "}
             <span className="text-blue-500">Iqbal Hossain</span>

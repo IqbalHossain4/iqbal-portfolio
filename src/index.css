@@ -25,6 +25,14 @@ body {
   margin-bottom: 80px;
 }
 
+.changeColor {
+  filter: saturate(0%);
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.1s;
+}
+.changeColor:hover {
+  filter: saturate(100%);
+}
 /* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
