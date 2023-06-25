@@ -17,7 +17,11 @@ const Work = () => {
   };
 
   return (
-    <div className="my-28 z-20">
+    <div
+      className="my-28 z-20 font-serif"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className="container ">
         <p className="my-8 text-zinc-400">work/&gt;</p>
         <Swiper

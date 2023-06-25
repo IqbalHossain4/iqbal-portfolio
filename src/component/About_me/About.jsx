@@ -7,7 +7,11 @@ const About = () => {
   };
 
   return (
-    <div className="text-white grad py-4 ">
+    <div
+      className="text-white grad py-4 font-serif"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className="container">
         <p className="text-zinc-400">about/&gt;</p>
         <div className="md:flex   items-center justify-evenly w-full">

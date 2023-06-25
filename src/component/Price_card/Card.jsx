@@ -4,10 +4,16 @@ import { FaCheck } from "react-icons/fa";
 const Card = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container font-serif">
         <p className="text-zinc-400 my-8">service/&gt;</p>
         <div className="w-full md:flex items-center justify-around gap-8 mx-auto">
-          <div className="bg-[#071cf9] p-8 text-white rounded-lg hover:bg-transparent  hover:border border-[#071cf9] transition-colors duration-300 ease-in-out mb-8">
+          <div
+            className="bg-[#071cf9] p-8 text-white rounded-lg hover:bg-transparent  hover:border border-[#071cf9] transition-colors duration-300 ease-in-out mb-8"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <p className="mb-16 font-bold text-xl">Hourley Basis</p>
             <h1 className="text-2xl font-extrabold ">
               $10 <span className="text-sm">Hour</span>
@@ -46,7 +52,13 @@ const Card = () => {
               Start Project
             </button>
           </div>
-          <div className="bg-[#071cf9] p-8 text-white rounded-lg hover:bg-transparent  hover:border border-[#071cf9] transition-colors duration-300 ease-in-out mb-8">
+          <div
+            className="bg-[#071cf9] p-8 text-white rounded-lg hover:bg-transparent  hover:border border-[#071cf9] transition-colors duration-300 ease-in-out mb-8"
+            data-aos="fade-up-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <p className="mb-16 font-bold text-xl">Weekly</p>
             <h1 className="text-2xl font-extrabold ">
               $250 <span className="text-sm">week</span>
@@ -85,7 +97,13 @@ const Card = () => {
               Start Project
             </button>
           </div>
-          <div className="bg-[#071cf9] p-8 text-white rounded-lg hover:bg-transparent  hover:border border-[#071cf9] transition-colors duration-300 ease-in-out mb-8">
+          <div
+            className="bg-[#071cf9] p-8 text-white rounded-lg hover:bg-transparent  hover:border border-[#071cf9] transition-colors duration-300 ease-in-out mb-8"
+            data-aos="fade-left"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <p className="mb-16 font-bold text-xl">Hourley Basis</p>
             <h1 className="text-2xl font-extrabold ">
               $10 <span className="text-sm">Hour</span>

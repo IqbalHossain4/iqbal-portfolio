@@ -18,7 +18,7 @@ const Home = () => {
   const [handleSocial, setHandleSocial] = useState(true);
   return (
     <div className="">
-      <div className="absolute h-full top-[50%] right-0">
+      <div className="absolute h-full top-[50%] right-0 font-serif">
         <div className="sticky text-white top-[50%] ">
           <div
             onClick={() => setHandleSocial(!handleSocial)}

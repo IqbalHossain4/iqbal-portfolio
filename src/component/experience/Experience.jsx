@@ -9,11 +9,16 @@ const Experience = () => {
   });
   return (
     <div>
-      <div className="text-white container">
+      <div className="text-white container font-serif">
         <div className="content" />
         <p className="my-8 text-zinc-400">detail/&gt;</p>
         <div className=" flex items-center justify-around">
-          <div>
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <h4 className="text-2xl   font-semibold">
               Experience
               <span
@@ -32,7 +37,12 @@ const Experience = () => {
             />
             <span className="font-extrabold text-[#071cf9]  text-5xl">+</span>
           </div>
-          <div>
+          <div
+            data-aos="fade-up-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <h4 className="text-2xl   font-semibold">
               Projects
               <span
@@ -51,7 +61,12 @@ const Experience = () => {
             />
             <span className="font-extrabold text-[#071cf9]  text-5xl">+</span>
           </div>
-          <div>
+          <div
+            data-aos="fade-left"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <h4 className="text-2xl   font-semibold">
               Client
               <span

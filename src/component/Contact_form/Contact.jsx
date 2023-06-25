@@ -30,7 +30,13 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div className="contact ">
+    <div
+      className="contact font-serif "
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+    >
       <div className="container ">
         <p className="my-8 text-zinc-400">contact us/&gt;</p>
         <div className="w-full text-center  flex justify-center ">

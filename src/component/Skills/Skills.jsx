@@ -9,6 +9,7 @@ import bootstrap from "../../assets/all_courses/bootstrap.png";
 import mongodb from "../../assets/all_courses/mongodb.png";
 import firebase from "../../assets/all_courses/firebase.png";
 import { Tilt } from "react-tilt";
+
 const Skills = () => {
   const defaultOptions = {
     reverse: false,
@@ -22,7 +23,11 @@ const Skills = () => {
     easing: "cubic-bezier(.03,.98,.52,.99)",
   };
   return (
-    <div className=" overflow-hidden  grad mx-auto">
+    <div
+      className=" overflow-hidden  grad mx-auto font-serif"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className="container w-full">
         <p className="my-8 text-zinc-400">skill/&gt;</p>
         <div className="flex flex-wrap justify-center  items-center gap-6 p-8  mx-auto">

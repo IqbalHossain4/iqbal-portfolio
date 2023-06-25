@@ -28,7 +28,12 @@ const NavBer = () => {
   );
 
   return (
-    <nav className="sticky top-0 z-50">
+    <nav
+      className="sticky top-0 z-50 font-serif"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
       <div
         className={` flex items-cente justify-between grad text-white px-8 `}
       >
