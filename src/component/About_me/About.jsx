@@ -29,23 +29,24 @@ const About = () => {
                     life. I believe that if I want to do something new then I
                     have to need to make myself different from any other.
                   </p>
-                  <button className="text-black" onClick={toggleShowMore}>
+                  <button className="text-[#071cf9]" onClick={toggleShowMore}>
                     See Less...
                   </button>
                 </div>
               ) : (
-                <button className="text-black" onClick={toggleShowMore}>
+                <button className="text-[#071cf9]" onClick={toggleShowMore}>
                   See More...
                 </button>
               )}
             </div>
           </div>
 
-          <div className="md:w-1/2">
-            <div className="w-[200px] h-[200px] bg-black  rounded-full border mx-auto">
+          <div className="md:w-1/2  ml-16">
+            <div className="relative w-[240px]  h-[240px]">
+              <div className="w-[40px]  h-[40px]  rotater    rounded-full  mx-auto shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]"></div>
               <img
                 src={logo}
-                className="w-full h-full rounded-full"
+                className="w-[180px] changeColor bg-black h-[180px] absolute left-[13%] top-[4%]  rounded-full"
                 alt="logo"
               />
             </div>

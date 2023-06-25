@@ -22,10 +22,10 @@ const Skills = () => {
     easing: "cubic-bezier(.03,.98,.52,.99)",
   };
   return (
-    <div className=" overflow-hidden  grad mx-auto p-8 ">
+    <div className=" overflow-hidden  grad mx-auto">
       <div className="container w-full">
         <p className="my-8 text-zinc-400">skill/&gt;</p>
-        <div className="flex flex-wrap justify-center  items-center gap-6  mx-auto">
+        <div className="flex flex-wrap justify-center  items-center gap-6 p-8  mx-auto">
           <Tilt options={defaultOptions}>
             <div className="w-[80px] h-[80px] changeColor ">
               <img src={html} className="w-full h-full" alt="" />

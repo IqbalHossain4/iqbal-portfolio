@@ -12,6 +12,8 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import Experience from "../component/experience/Experience";
+import Card from "../component/Price_card/Card";
+import Contact from "../component/Contact_form/Contact";
 const Home = () => {
   const [handleSocial, setHandleSocial] = useState(true);
   return (
@@ -39,16 +41,30 @@ const Home = () => {
             {!handleSocial ? (
               <div className="text-white transition-all z-50">
                 <p className=" hover:text-blue-600 my-4 transition-colors duration-300 ease-in-out hover:border-black border-[#071cf9] border-4 rounded-full shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
-                  <FaFacebookSquare className="text-2xl rounded-full" />
+                  <a href="https://web.facebook.com/ayaniqbalbd" target="blank">
+                    <FaFacebookSquare className="text-2xl rounded-full" />
+                  </a>
                 </p>
                 <p className=" hover:text-blue-600 my-4 transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)] hover:border-black border-[#071cf9] border-4 rounded-full">
-                  <FaLinkedin className="text-2xl rounded-full" />
+                  <a
+                    href="https://www.linkedin.com/in/iqbal-hossain10/"
+                    target="blank"
+                  >
+                    <FaLinkedin className="text-2xl rounded-full" />
+                  </a>
                 </p>
                 <p className=" hover:text-blue-600 my-4 transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)] hover:border-black border-[#071cf9] border-4 rounded-full">
-                  <FaInstagram className="text-2xl rounded-full" />
+                  <a
+                    href="https://www.instagram.com/ayana.iqbal/"
+                    target="blank"
+                  >
+                    <FaInstagram className="text-2xl rounded-full" />
+                  </a>
                 </p>
                 <p className=" hover:text-blue-600 my-4 transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)] hover:border-black border-[#071cf9] border-4 rounded-full">
-                  <FaGithub className="text-2xl rounded-full" />
+                  <a href="https://github.com/IqbalHossain4" target="blank">
+                    <FaGithub className="text-2xl rounded-full" />
+                  </a>
                 </p>
               </div>
             ) : (
@@ -62,6 +78,8 @@ const Home = () => {
       <Work />
       <Skills />
       <Experience />
+      <Card />
+      <Contact />
     </div>
   );
 };
