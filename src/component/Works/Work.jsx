@@ -41,11 +41,42 @@ const Work = () => {
         >
           <div>
             <SwiperSlide>
-              <div className="relative changeColor cursor-pointer md:h-[450px] h-[200px]">
-                <a href="https://simple-firebase-5fde6.web.app/" target="blank">
-                  <img src={sky} className="h-full w-full" alt="" />
-                </a>
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black bg-blend-overlay"></div>
+              <div className="relative">
+                <div className="relative changeColor cursor-pointer md:h-[450px] h-[200px]">
+                  <a
+                    href="https://simple-firebase-5fde6.web.app/"
+                    target="blank"
+                  >
+                    <img src={sky} className="h-full w-full" alt="projects" />
+                  </a>
+                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black bg-blend-overlay"></div>
+                </div>
+                <div className="absolute text-white bottom-[60px] right-[60px] flex items-center gap-2">
+                  <a
+                    href="https://drive.google.com/file/d/1j75F6BGdsseb9szlphAQhfhU_7AmNOwu/view?usp=sharing"
+                    target="blank"
+                  >
+                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                      Live View
+                    </button>
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1j75F6BGdsseb9szlphAQhfhU_7AmNOwu/view?usp=sharing"
+                    target="blank"
+                  >
+                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                      Front-end
+                    </button>
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1j75F6BGdsseb9szlphAQhfhU_7AmNOwu/view?usp=sharing"
+                    target="blank"
+                  >
+                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                      Back-end
+                    </button>
+                  </a>
+                </div>
               </div>
             </SwiperSlide>
             <div className="h-[450px] w-full">
@@ -55,7 +86,7 @@ const Work = () => {
                     href="https://simple-firebase-5fde6.web.app/"
                     target="blank"
                   >
-                    <img src={sky} className="" alt="" />
+                    <img src={sky} className="" alt="projects" />
                   </a>
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black bg-blend-overlay"></div>
                 </div>
@@ -64,7 +95,7 @@ const Work = () => {
             <SwiperSlide>
               <div className="relative cursor-pointer changeColor md:h-[450px] h-[200px]">
                 <a href="https://simple-firebase-5fde6.web.app/" target="blank">
-                  <img src={sky} alt="" />
+                  <img src={sky} alt="projects" />
                 </a>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black bg-blend-overlay"></div>
               </div>

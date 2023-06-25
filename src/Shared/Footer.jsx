@@ -21,9 +21,9 @@ const Footer = () => {
           <div>
             <img src={logo} alt="logo" width="120px" />
             <p>
-              ACME Industries Ltd.
+              personal portfolio
               <br />
-              Providing reliable tech since 1992
+              copyright &copy; by iqbal
             </p>
           </div>
           <div>
