@@ -1,27 +1,81 @@
-import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-
+// import React, { useEffect, useState } from "react";
+// import { NavLink } from "react-router-dom";
+// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 const NavBer = () => {
   const navOptions = (
     <>
       <li>
         <span>
-          <NavLink to="/">Home/&gt;</NavLink>
+          <Link
+            to="banner"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Home/&gt;
+          </Link>
         </span>
       </li>
       <li>
         <span>
-          <NavLink to="/service">Services/&gt;</NavLink>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            About/&gt;
+          </Link>
         </span>
       </li>
       <li>
         <span>
-          <NavLink to="/instructor">About/&gt;</NavLink>
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Projects/&gt;
+          </Link>
         </span>
       </li>
       <li>
         <span>
-          <NavLink to="/classes">Contact/&gt;</NavLink>
+          <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
+            Skill/&gt;
+          </Link>
+        </span>
+      </li>
+
+      <li>
+        <span>
+          <Link
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Services/&gt;
+          </Link>
+        </span>
+      </li>
+      <li>
+        <span>
+          <Link
+            to="contactUs"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            Contact Us/&gt;
+          </Link>
         </span>
       </li>
     </>
@@ -31,7 +85,6 @@ const NavBer = () => {
     <nav
       className="sticky top-0 z-50 font-serif"
       data-aos="fade-down"
-      data-aos-easing="linear"
       data-aos-duration="1000"
     >
       <div

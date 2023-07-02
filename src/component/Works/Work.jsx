@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "./style.css";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Work = () => {
   const progressCircle = useRef(null);
@@ -18,6 +18,7 @@ const Work = () => {
 
   return (
     <div
+      id="projects"
       className="my-28 z-20 font-serif"
       data-aos="fade-up"
       data-aos-duration="2000"
@@ -109,11 +110,11 @@ const Work = () => {
           </div>
         </Swiper>
         <div className="text-center mt-8 rounded-md">
-          <Link>
+          <a>
             <button className="border border-blue-600 hover:bg-[#071cf9]  w-[150px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
               View More
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

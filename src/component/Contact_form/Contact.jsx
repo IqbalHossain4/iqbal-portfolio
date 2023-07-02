@@ -30,7 +30,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div
+    <div id="contactUs"
       className="contact font-serif "
       data-aos="fade-up"
       data-aos-duration="2000"

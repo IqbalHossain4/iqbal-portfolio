@@ -7,6 +7,7 @@ import nodejs from "../../assets/all_courses/nodejs.png";
 import tailwind from "../../assets/all_courses/tailwind.png";
 import bootstrap from "../../assets/all_courses/bootstrap.png";
 import mongodb from "../../assets/all_courses/mongodb.png";
+import expressjs from "../../assets/all_courses/express-js.png";
 import firebase from "../../assets/all_courses/firebase.png";
 import { Tilt } from "react-tilt";
 
@@ -24,6 +25,7 @@ const Skills = () => {
   };
   return (
     <div
+      id="skills"
       className=" overflow-hidden  grad mx-auto font-serif"
       data-aos="fade-up"
       data-aos-duration="2000"
@@ -64,6 +66,11 @@ const Skills = () => {
           <Tilt options={defaultOptions}>
             <div className="w-[80px] h-[80px] changeColor ">
               <img src={nodejs} className="w-full h-full" alt="" />
+            </div>
+          </Tilt>
+          <Tilt options={defaultOptions}>
+            <div className="w-[80px] h-[80px] changeColor ">
+              <img src={expressjs} className="w-full h-full" alt="" />
             </div>
           </Tilt>
           <Tilt options={defaultOptions}>

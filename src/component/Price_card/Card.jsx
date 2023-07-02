@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 
 const Card = () => {
   return (
-    <div>
+    <div id="services">
       <div className="container font-serif">
         <p className="text-zinc-400 my-8">service/&gt;</p>
         <div className="w-full md:flex items-center justify-around gap-8 mx-auto">
@@ -19,10 +19,8 @@ const Card = () => {
               $10 <span className="text-sm">Hour</span>
             </h1>
             <p className="mt-4 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae ad voluptas ipsum, velit sapiente tempora, mollitia
-              quas ullam nostrum molestias aspernatur, veritatis dolore cum
-              doloribus corporis quod eos adipisci! Itaque.
+              I will provide a single page Design with eye catchy deisgn. Also
+              with provide 7/24 days free support. and fix any bugs.
             </p>
             <p className="flex items-center gap-2 mt-4 ">
               <span className="text-green-500">
@@ -61,13 +59,11 @@ const Card = () => {
           >
             <p className="mb-16 font-bold text-xl">Weekly</p>
             <h1 className="text-2xl font-extrabold ">
-              $250 <span className="text-sm">week</span>
+              $550 <span className="text-sm">week</span>
             </h1>
             <p className="mt-4 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae ad voluptas ipsum, velit sapiente tempora, mollitia
-              quas ullam nostrum molestias aspernatur, veritatis dolore cum
-              doloribus corporis quod eos adipisci! Itaque.
+              I will provide full website Design with eye catchy deisgn. Also
+              with provide 15/24 days free support. and fix any bugs.
             </p>
             <p className="flex items-center gap-2 mt-4 ">
               <span className="text-green-500">
@@ -104,15 +100,13 @@ const Card = () => {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
           >
-            <p className="mb-16 font-bold text-xl">Hourley Basis</p>
+            <p className="mb-16 font-bold text-xl">Full Time</p>
             <h1 className="text-2xl font-extrabold ">
-              $10 <span className="text-sm">Hour</span>
+              $1000 <span className="text-sm">Month</span>
             </h1>
             <p className="mt-4 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae ad voluptas ipsum, velit sapiente tempora, mollitia
-              quas ullam nostrum molestias aspernatur, veritatis dolore cum
-              doloribus corporis quod eos adipisci! Itaque.
+              I will provide full website Design with eye catchy deisgn. Also
+              with provide 30/24 days free support. and fix any bugs.
             </p>
             <p className="flex items-center gap-2 mt-4 ">
               <span className="text-green-500">
@@ -136,7 +130,7 @@ const Card = () => {
               <span className="text-green-500">
                 <FaCheck />
               </span>
-              <span> 7/24 support</span>
+              <span> 30/24 support</span>
             </p>
             <button className="border mt-4 w-full border-blue-600 bg-black hover:bg-[#071cf9]  w-[150px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
               Start Project

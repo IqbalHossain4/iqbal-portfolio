@@ -11,7 +11,7 @@ const Experience = () => {
     <div>
       <div className="text-white container font-serif">
         <div className="content" />
-        <p className="my-8 text-zinc-400">detail/&gt;</p>
+        <p className="my-8 text-zinc-400">experience/&gt;</p>
         <div className=" flex items-center justify-around">
           <div
             data-aos="fade-right"

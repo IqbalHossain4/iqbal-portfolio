@@ -2,7 +2,12 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
   return (
-    <div className="my-40" data-aos="fade-up" data-aos-duration="2000">
+    <div
+      id="banner"
+      className="my-40"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div className=" container ">
         <div className="text-white ">
           <p className="text-zinc-400 my-8">start/&gt;</p>
