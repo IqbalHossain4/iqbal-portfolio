@@ -1,6 +1,3 @@
-// import React, { useEffect, useState } from "react";
-// import { NavLink } from "react-router-dom";
-// import { Link } from "react-scroll";
 import { Link } from "react-scroll";
 const NavBer = () => {
   const navOptions = (

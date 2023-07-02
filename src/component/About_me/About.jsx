@@ -114,7 +114,7 @@ const About = () => {
                 <div className="center-logo">
                   <img
                     src={logo}
-                    className="md:w-[250px] md:h-[250px] changeColor bg-black rounded-[100%]"
+                    className="md:w-[200px] md:h-[200px] changeColor bg-black rounded-[100%]"
                     alt="logo"
                   />
                 </div>
