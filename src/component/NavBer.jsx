@@ -37,7 +37,7 @@ const NavBer = () => {
             offset={-100}
             duration={500}
           >
-            Projects/&gt;
+            Works/&gt;
           </Link>
         </span>
       </li>

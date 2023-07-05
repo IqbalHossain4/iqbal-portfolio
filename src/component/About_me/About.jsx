@@ -47,19 +47,10 @@ const About = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2  ml-16">
-            {/* <div className="relative w-[240px]  h-[240px]">
-              <div className="w-[40px]  h-[40px]  rotater    rounded-full  mx-auto shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]"></div>
-              <img
-                src={logo}
-                className="w-[180px] changeColor bg-black h-[180px] absolute left-[13%] top-[4%]  rounded-full"
-                alt="logo"
-              />
-            </div> */}
-
+          <div className="md:w-1/2  w-full  mx-auto">
             <section className="main-container">
               <div className="main">
-                <div className="big-circle">
+                <div className="big-circle z-[6]">
                   <div className="icon-block">
                     <img
                       src="https://ucarecdn.com/614bf107-8b04-45d2-9be6-1123d09b72ba/webdevicon.png"
@@ -111,7 +102,7 @@ const About = () => {
                     />
                   </div>
                 </div>
-                <div className="center-logo">
+                <div className="center-logo z-[4]">
                   <img
                     src={logo}
                     className="md:w-[200px] md:h-[200px] changeColor bg-black rounded-[100%]"

@@ -12,8 +12,9 @@ const Experience = () => {
       <div className="text-white container font-serif">
         <div className="content" />
         <p className="my-8 text-zinc-400">experience/&gt;</p>
-        <div className=" flex items-center justify-around">
+        <div className="md:flex items-center justify-around">
           <div
+            className="text-center md:mt-0 mt-8"
             data-aos="fade-right"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -38,6 +39,7 @@ const Experience = () => {
             <span className="font-extrabold text-[#071cf9]  text-5xl">+</span>
           </div>
           <div
+            className="text-center md:mt-0 mt-8"
             data-aos="fade-up-right"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -62,6 +64,7 @@ const Experience = () => {
             <span className="font-extrabold text-[#071cf9]  text-5xl">+</span>
           </div>
           <div
+            className="text-center md:mt-0 mt-8"
             data-aos="fade-left"
             data-aos-delay="100"
             data-aos-duration="1000"

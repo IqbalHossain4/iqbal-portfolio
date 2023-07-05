@@ -1,23 +1,9 @@
-import sky from "../../assets/sky.png";
+import sky from "../../assets/sky2.png";
 import bluKey from "../../assets/bluKey.png";
 import findus from "../../assets/findus.png";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "./style.css";
-import { Autoplay, Pagination, Navigation } from "swiper";
-import { useRef } from "react";
 // import { Link } from "react-router-dom";
 
 const Work = () => {
-  const progressCircle = useRef(null);
-  const progressContent = useRef(null);
-  const onAutoplayTimeLeft = (s, time, progress) => {
-    progressCircle.current.style.setProperty("--progress", 1 - progress);
-    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
-  };
-
   return (
     <div
       id="projects"
@@ -27,79 +13,76 @@ const Work = () => {
     >
       <div className="container ">
         <p className="my-8 text-zinc-400">work/&gt;</p>
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          onAutoplayTimeLeft={onAutoplayTimeLeft}
-          className="mySwiper"
-        >
-          <div>
-            <SwiperSlide>
-              <div className="relative">
-                <div className="relative changeColor cursor-pointer w-full md:w-[900px]  md:h-[450px] h-[200px]">
-                  <a
-                    href="https://simple-firebase-5fde6.web.app/"
-                    target="blank"
-                  >
-                    <img
-                      src={sky}
-                      className="h-[100%] w-[100%]"
-                      alt="projects"
-                    />
-                  </a>
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black bg-blend-overlay"></div>
-                </div>
-                <div className="absolute text-white bottom-[60px] right-[10%] md:right-[25%]  flex items-center gap-2">
-                  <a
-                    href="https://simple-firebase-5fde6.web.app/"
-                    target="blank"
-                  >
-                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
-                      Live View
-                    </button>
-                  </a>
-                  <a
-                    href="https://drive.google.com/file/d/1j75F6BGdsseb9szlphAQhfhU_7AmNOwu/view?usp=sharing"
-                    target="blank"
-                  >
-                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
-                      Front-end
-                    </button>
-                  </a>
-                  <a
-                    href="https://drive.google.com/file/d/1j75F6BGdsseb9szlphAQhfhU_7AmNOwu/view?usp=sharing"
-                    target="blank"
-                  >
-                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
-                      Back-end
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
 
-            <SwiperSlide>
-              <div className="relative">
-                <div className="relative changeColor cursor-pointer w-full md:w-[900px]  md:h-[450px] h-[200px]">
-                  <a href="https://income-hero.web.app/" target="blank">
-                    <img
-                      src={findus}
-                      className="h-[100%] w-[100%]"
-                      alt="projects"
-                    />
-                  </a>
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black bg-blend-overlay"></div>
-                </div>
-                <div className="absolute text-white bottom-[60px] md:right-[25%] right-[10%] flex items-center gap-2">
+        <div>
+          {/* Sky-sports */}
+          <div className="p-8 md:flex items-center justify-between">
+            <div className="md:w-1/3">
+              <h4 className="text-[#071cf9] text-[18px]">Full-Stack Project</h4>
+
+              <h2 className="text-[#FF78C4] font-bold text-[22px] my-8">
+                Sky-Sprts{" "}
+                <span className="text-white">| Learning platform</span>
+              </h2>
+              <p className="text-white text-[18px] leading-[35px]">
+                <span className="text-[#FF78C4]">Sky-Sports</span> is a learning
+                platform there provide some exciting sports. if anyone wants to
+                learn any sports then you can join our{" "}
+                <span className="text-[#FF78C4]">Sky-Sports</span> . There try
+                to make a healthy life and a healthy society. We know sports are
+                one kind of physical exercise. There have skilled Instructors to
+                learn sports.
+              </p>
+              <div className=" text-white flex items-center gap-2 mt-8">
+                <a href="https://simple-firebase-5fde6.web.app/" target="blank">
+                  <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                    Live View
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/IqbalHossain4/sky-sports_available_here_man_and_women_sports"
+                  target="blank"
+                >
+                  <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                    Front-end
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/IqbalHossain4/assignment-12-server"
+                  target="blank"
+                >
+                  <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                    Back-end
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className="md:h-[600px] h-full md:mt-0 mt-8">
+              <img className="h-full w-full" src={sky} alt="" />
+            </div>
+          </div>
+          {/* findus */}
+          <div>
+            <div className="p-8 md:flex items-center justify-between">
+              <div className="md:w-1/3">
+                <h4 className="text-[#071cf9] text-[18px]">
+                  Front-End Project
+                </h4>
+
+                <h2 className="text-yellow-400 font-bold text-[22px] my-8">
+                  Findus Toy{" "}
+                  <span className="text-white">| Ecommerce platform</span>
+                </h2>
+                <p className="text-white text-[18px] leading-[35px]">
+                  <span className="text-yellow-400">Findus Toy</span> is a
+                  ecommerce marketplace. If anyone wants to buy any kinds of toy
+                  they can buy from{" "}
+                  <span className="text-yellow-400">Findus Toy </span>. There
+                  sells kids learning toys. If anyone want practically learn his
+                  children, I think toys is best for that. If any children use
+                  toys than they play with toys and extend his knowledge.
+                </p>
+                <div className=" text-white flex items-center gap-2 mt-8">
                   <a href="https://income-hero.web.app/" target="blank">
                     <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
                       Live View
@@ -123,53 +106,54 @@ const Work = () => {
                   </a>
                 </div>
               </div>
-            </SwiperSlide>
+              <div className="md:h-[600px] h-full md:mt-0 mt-8">
+                <img className="h-full w-full" src={findus} alt="" />
+              </div>
+            </div>
+          </div>
+          {/* blueKey */}
+          <div>
+            <div className="p-8 md:flex items-center justify-between">
+              <div className="md:w-1/3">
+                <h4 className="text-[#071cf9] text-[18px]">
+                  Front-End Project
+                </h4>
 
-            <SwiperSlide>
-              <div className="relative">
-                <div className="relative changeColor cursor-pointer w-full md:w-[900px]  md:h-[450px] h-[200px]">
+                <h2 className="text-red-600 font-bold text-[22px] my-8">
+                  BlueKey{" "}
+                  <span className="text-white">| Food Delivery platform</span>
+                </h2>
+                <p className="text-white text-[18px] leading-[35px]">
+                  <span className="text-red-600">BlueKey</span> is a Food
+                  delivery platform. Everyone can order the food using his
+                  correct location. and If anyone wants to sell his food also
+                  they can sell his food. we always serius about food because
+                  food are very very important a human life that's why we
+                  provide the best fresh foods.
+                </p>
+                <div className=" text-white flex items-center gap-2 mt-8">
                   <a href="https://ass-ten.web.app/" target="blank">
-                    <img
-                      src={bluKey}
-                      className="h-full w-full"
-                      alt="projects"
-                    />
-                  </a>
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black bg-blend-overlay"></div>
-                </div>
-                <div className="absolute text-white bottom-[60px] md:right-[25%] right-[10%] flex items-center gap-2">
-                  <a href="https://ass-ten.web.app/" target="blank">
-                    <button className="border border-blue-600 hover:bg-[#071cf9] w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
                       Live View
                     </button>
                   </a>
                   <a href="#" target="blank">
-                    <button className="border border-blue-600 hover:bg-[#071cf9] w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
                       Front-end
                     </button>
                   </a>
                   <a href="#" target="blank">
-                    <button className="border border-blue-600 hover:bg-[#071cf9] w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
+                    <button className="border border-blue-600 hover:bg-[#071cf9]  w-[100px] md:w-[180px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
                       Back-end
                     </button>
                   </a>
                 </div>
               </div>
-            </SwiperSlide>
+              <div className="md:h-[600px] h-full md:mt-0 mt-8">
+                <img className="h-full w-full" src={bluKey} alt="" />
+              </div>
+            </div>
           </div>
-          <div className="autoplay-progress" slot="container-end">
-            <svg viewBox="0 0 48 48" ref={progressCircle}>
-              <circle cx="24" cy="24" r="20"></circle>
-            </svg>
-            <span ref={progressContent}></span>
-          </div>
-        </Swiper>
-        <div className="text-center mt-8 rounded-md">
-          <a>
-            <button className="border border-blue-600 hover:bg-[#071cf9]  w-[150px] h-[40px] cursor-pointer text-white rounded-md tracking-wide transition-colors duration-300 ease-in-out shadow-[0_10px_20px_rgba(13,_53,_240,_0.9)]">
-              View More
-            </button>
-          </a>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="w-[80%] mt-[80px] mx-auto">
         <p className="my-8 text-zinc-400">footer/&gt;</p>
 
-        <footer className="flex items-center justify-evenly p-10 font-serif text-white">
+        <footer className="md:flex items-center justify-evenly p-10 font-serif text-white">
           <div>
             <img src={logo} alt="logo" width="120px" />
             <p>
