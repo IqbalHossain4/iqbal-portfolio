@@ -25,13 +25,13 @@ const Work = () => {
                 <span className="text-white">| Learning platform</span>
               </h2>
               <p className="text-white text-[18px] leading-[35px]">
-                <span className="text-[#FF78C4]">Sky-Sports</span> is a learning
-                platform there provide some exciting sports. if anyone wants to
-                learn any sports then you can join our{" "}
-                <span className="text-[#FF78C4]">Sky-Sports</span> . There try
-                to make a healthy life and a healthy society. We know sports are
-                one kind of physical exercise. There have skilled Instructors to
-                learn sports.
+                <span className="text-[#FF78C4]">Sky-Sports</span> is a
+                full-stack application. Here users will find a lot of features.
+                Users can create accounts using email and password or with
+                Google. Students will find a fancy gallery section. and course
+                section. and top instructor section. There has an admin or
+                instructor section. They are different role. admin can make an
+                instructor or admin.
               </p>
               <div className=" text-white flex items-center gap-2 mt-8">
                 <a href="https://simple-firebase-5fde6.web.app/" target="blank">
@@ -75,12 +75,12 @@ const Work = () => {
                 </h2>
                 <p className="text-white text-[18px] leading-[35px]">
                   <span className="text-yellow-400">Findus Toy</span> is a
-                  ecommerce marketplace. If anyone wants to buy any kinds of toy
-                  they can buy from{" "}
-                  <span className="text-yellow-400">Findus Toy </span>. There
-                  sells kids learning toys. If anyone want practically learn his
-                  children, I think toys is best for that. If any children use
-                  toys than they play with toys and extend his knowledge.
+                  front-end application. Here users will find a lot of features.
+                  Users can create accounts using email and password or with
+                  Google. Users will find a fancy gallery section. and product
+                  section. In the product section users can find categorized
+                  products. Users can add products easily and delete a product
+                  and if users want buy a product they can buy a product.
                 </p>
                 <div className=" text-white flex items-center gap-2 mt-8">
                   <a href="https://income-hero.web.app/" target="blank">
@@ -124,12 +124,13 @@ const Work = () => {
                   <span className="text-white">| Food Delivery platform</span>
                 </h2>
                 <p className="text-white text-[18px] leading-[35px]">
-                  <span className="text-red-600">BlueKey</span> is a Food
-                  delivery platform. Everyone can order the food using his
-                  correct location. and If anyone wants to sell his food also
-                  they can sell his food. we always serius about food because
-                  food are very very important a human life that's why we
-                  provide the best fresh foods.
+                  <span className="text-red-600">BlueKey</span> is a front-end
+                  application. Here users will find a lot of features. Users can
+                  create accounts using email and password or with Google. Users
+                  will find a fancy food gallery section. and chef section. In
+                  the food section users can find categorized food. A Chef can
+                  add food easily and delete a food and if users want buy a food
+                  they can buy a food.
                 </p>
                 <div className=" text-white flex items-center gap-2 mt-8">
                   <a href="https://ass-ten.web.app/" target="blank">
